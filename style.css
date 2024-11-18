@@ -24,7 +24,7 @@ table#tabla-horario{
 }
 table#tabla-lista{
     margin: 30% ;
-    
+
 }
 
 th,td#recreo{
@@ -39,4 +39,9 @@ td{
 }
 .hora{
     border: solid green;
+}
+#circulo1{
+    background-color: red;
+    border: 1px;
+    border-radius: 50%;
 }
