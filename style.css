@@ -30,12 +30,13 @@ table#tabla-lista{
 th,td#recreo{
     top: 2%;
     border: solid red;
-    height: 2%;
-    
+    height: 1em;
+    font-size: large;
 }
 td{
     border: solid black;
     height: 10%;
+    display: flex;
 }
 .hora{
     border: solid green;
@@ -44,4 +45,7 @@ td{
     background-color: red;
     border: 1px;
     border-radius: 50%;
+}
+#horas{
+    width: 3%;
 }
