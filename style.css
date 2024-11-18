@@ -16,3 +16,23 @@ div{
     height: 100%;
     display: flex;
 }
+table{
+    border: solid black;
+    margin: 10%;
+    height: 41rem;
+    width: 60rem;
+}
+
+th,td#recreo{
+    top: 2%;
+    border: solid red;
+    height: 5%;
+    
+}
+td{
+    border: solid black;
+    height: 10%;
+}
+.hora{
+    border: solid green;
+}
