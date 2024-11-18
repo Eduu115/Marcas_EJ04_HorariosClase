@@ -16,17 +16,21 @@ div{
     height: 100%;
     display: flex;
 }
-table{
+table#tabla-horario{
     border: solid black;
     margin: 10%;
     height: 41rem;
     width: 60rem;
 }
+table#tabla-lista{
+    margin: 30% ;
+    
+}
 
 th,td#recreo{
     top: 2%;
     border: solid red;
-    height: 5%;
+    height: 2%;
     
 }
 td{
