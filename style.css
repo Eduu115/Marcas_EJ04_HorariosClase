@@ -1,3 +1,6 @@
+body{
+    background-color: #e9b19d   ;
+}
 #horario{
     position: absolute;
     left: 0%;
@@ -11,46 +14,85 @@
     right: 0%;
     
 }
+table{
+    border-collapse: collapse ;
+}
 
 div{
     height: 100%;
     display: flex;
 }
 table#tabla-horario{
-    border: solid black;
-    margin: 10%;
-    height: 41rem;
-    width: 60rem;
+    
+    margin-top: 15%;
+    margin-bottom:15% ;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 table#tabla-lista{
-    margin: 30% ;
-
+    margin-top: 15%;
+    margin-left: 33% ;
+    margin-right: 33%;
+    margin-bottom: 15%;
 }
 
 th,td#recreo{
     top: 2%;
-    border: solid red;
     height: 1em;
     font-size: large;
 }
 td{
-    border: solid black;
     height: 10%;
     
 }
 .hora{
-    border: solid green;
+    background-color: #c8866e;
 }
-#circulo1{
-    background-color: red;
+.circulo{
     border: 1px;
     border-radius: 50%;
+}
+.profe{
+    width: 100%;
+}
+.asignaturas{
+    height: 2em;
+    width: 15em;
 }
 #horas{
     width: 3%;
 }
 .normal{
     width: 100%;
-    height: 12px;
-    
+    height: 12px;  
+}
+table{
+    text-align: center;
+}
+#dias{
+    background-color: #c36948;
+}
+td#recreo{
+    background-color: lightblue;
+}
+
+/*Asignaturas*/
+
+#ipe{
+    background-color: #db6236;
+}
+#marcas{
+    background-color: salmon;
+}
+#bbdd{
+    background-color: orange;
+}
+#prog{
+    background-color: lightyellow;
+}
+#ed{
+    background-color: lightpink;
+}
+#si{
+    background-color: rgb(194, 88, 88);
 }
